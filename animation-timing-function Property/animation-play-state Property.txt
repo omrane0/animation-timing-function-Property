@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 5s;
+  animation-play-state: paused;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+</style>
+</head>
+<body>
+
+<h1>The animation-play-state Property</h1>
+
+<p>Pause an animation:</p>
+<div></div>
+<p><strong>Note:</strong> The animation-play-state property is not supported in Internet Explorer 9 and earlier versions.</p>
+
+</body>
+</html>
+
+
+
+The animation-play-state Property
+Pause an animation:
+
+Note: The animation-play-state property is not supported in Internet Explorer 9 and earlier versions.
